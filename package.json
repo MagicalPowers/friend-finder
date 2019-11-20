@@ -1,0 +1,27 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "This is a fascimile of a 'dating app'.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicalPowers/friend-finder.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Zachary Powers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MagicalPowers/friend-finder/issues"
+  },
+  "homepage": "https://github.com/MagicalPowers/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
