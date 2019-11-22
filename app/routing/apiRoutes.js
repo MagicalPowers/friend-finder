@@ -11,7 +11,18 @@ module.exports = function (app) {
     });
 
     app.post("/api/friends", function (req, res) {
-        arrayOfObjects.push(req.body);
-        res.json(true);
+        const newFriend = req.body;
+
+        console.log(newFriend);
+
+        // friends.push(newFriend);
+        res.json(newFriend);
+
+
+
+        arrayOfObjects.push(newFriend);
+        res.json(newFriend);
+
+        // res.json(true);
     });
 };
